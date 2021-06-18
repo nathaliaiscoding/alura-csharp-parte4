@@ -62,7 +62,7 @@ namespace ByteBank4
             {
                 Sacar(valor);
             }
-            catch (SaldoInsuficienteException ex)
+            catch (SaldoInsuficienteException)
             {
                 ContadorTransferenciasNaoPermitidas++;
                 throw;
